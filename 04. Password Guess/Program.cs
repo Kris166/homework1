@@ -6,7 +6,8 @@ namespace _04._Password_Guess
     {
         static void Main(string[] args)
         {
-          string password = Console.ReadLine();
+            string password = Console.ReadLine();
+            
             if ( password == "s3cr3t!P@ssw0rd")
             {
                 Console.WriteLine("Welcome");

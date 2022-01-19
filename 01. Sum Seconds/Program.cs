@@ -16,13 +16,11 @@ namespace _01._Sum_Seconds
             if (sec<010)
             {
                 Console.WriteLine($"{min}:0{sec}");
-            }
-            
+            }            
             else
             {
                 Console.WriteLine($"{min}:{sec}");
-            }
-                
+            }                
         }
     }
 }

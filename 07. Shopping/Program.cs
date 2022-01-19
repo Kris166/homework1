@@ -11,10 +11,9 @@ namespace _07._Shopping
             int ramMemoryQuantityinty=int.Parse(Console.ReadLine());
             int processorQuantityinty = int.Parse(Console.ReadLine());
 
-            double videocard
-            double
-            double
-                
+            // double videocard
+            // double
+            // double                
         }
     }
 }

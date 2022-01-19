@@ -21,16 +21,12 @@ namespace _03._Time___15_Minutes
             }
 
             if (m<10)
+            {   
+                Console.WriteLine($"{h}:0{m}");
+            }
+            else
             {
-                
-                
-                    Console.WriteLine($"{h}:0{m}");
-                }
-
-                else
-                {
-                    Console.WriteLine($"{h}:{m}");
-                
+                Console.WriteLine($"{h}:{m}");                
             }
         }
     }

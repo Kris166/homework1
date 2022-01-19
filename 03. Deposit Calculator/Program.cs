@@ -6,8 +6,6 @@ namespace _03._Deposit_Calculator
     {
         static void Main(string[] args)
         {
-            
-            
             double deposit = double.Parse(Console.ReadLine());
 
             int month = int.Parse(Console.ReadLine());
@@ -15,9 +13,6 @@ namespace _03._Deposit_Calculator
 
             double sum = deposit + month * (deposit * (interest / 100)) / 12;
             Console.WriteLine(sum);
-
-
-}
+        }
     }
 }
-       
